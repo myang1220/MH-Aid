@@ -1,14 +1,8 @@
-//
-//  ScheduleEditViewController.swift
-//  FBLA Mobile App Dev
-//
-//  Created by Amy Yang on 6/22/22.
-//
-//
 import UIKit
 
 class ScheduleEditViewController: UIViewController {
-//
+
+    //Create variables for each of the text fields
     @IBOutlet weak var blockOneTextField: UITextField!
     @IBOutlet weak var blockTwoTextField: UITextField!
     @IBOutlet weak var blockThreeTextField: UITextField!
@@ -18,8 +12,10 @@ class ScheduleEditViewController: UIViewController {
     @IBOutlet weak var blockSevenTextField: UITextField!
     @IBOutlet weak var blockEightTextField: UITextField!
     
+    //Create variable for the grade level text field
     @IBOutlet weak var gradeLevel: UITextField!
 
+    //Create arrays for each of the different sets of classes
     let gradeNineClasses: Array = ["English 9 H", "World History H", "Algebra 1", "Geometry", "Algebra 2", "AP Statistics", "AP Environmental Sciences", "AP Biology", "AP Chemistry", "AP Physics 1", "AP Physics C", "AP Economics", "World Language 1", "World Language 2", "World Language 3H", "World Language 4H", "AP World Language", "Physical Education/ Health"]
     let gradeTenClasses: Array = ["English 10 H", "US History 1H", "Algebra 1", "Geometry", "Algebra 2", "AP Statistics", "AP Environmental Sciences", "AP Biology", "AP Chemistry", "AP Physics 1", "AP Physics C", "AP Economics", "World Language 1", "World Language 2", "World Language 3H", "World Language 4H", "AP World Language", "Physical Education/ Health"]
     let gradeElevenClasses: Array = ["AP Literature and Composition", "AP Language and Composition", "English 11 H", "AP Calculus AB", "AP Calculus BC", "AP US History", "Algebra 1", "Geometry", "Algebra 2", "AP Statistics", "AP Environmental Sciences", "AP Biology", "AP Chemistry", "AP Physics 1", "AP Physics C", "AP Economics", "World Language 1", "World Language 2", "World Language 3H", "World Language 4H", "AP World Language", "Physical Education/ Health"]
@@ -27,14 +23,8 @@ class ScheduleEditViewController: UIViewController {
     let masterClasses: Array = ["English 9 H", "World History H", "English 10 H", "US History 1H", "AP Literature and Composition", "AP Language and Composition", "English 11 H", "AP Calculus AB", "AP Calculus BC", "AP US History", "English 12 H", "Algebra 1", "Geometry", "Algebra 2", "AP Statistics", "AP Environmental Sciences", "AP Biology", "AP Chemistry", "AP Physics 1", "AP Physics C", "AP Economics", "World Language 1", "World Language 2", "World Language 3H", "World Language 4H", "AP World Language", "Physical Education/ Health"]
     
     var classesOne: Array = [""]
-//    var classesTwo: Array = [""]
-//    var classesThree: Array = [""]
-//    var classesFour: Array = [""]
-//    var classesFive: Array = [""]
-//    var classesSix: Array = [""]
-//    var classesSeven: Array = [""]
-//    var classesEight: Array = [""]
     
+    //Creates pickerView instances to attach to the text fields
     var firstPickerView = UIPickerView()
     var secondPickerView = UIPickerView()
     var thirdPickerView = UIPickerView()
@@ -45,56 +35,22 @@ class ScheduleEditViewController: UIViewController {
     var eighthPickerView = UIPickerView()
 
 
+    //Depending on the grade number entered, the respective class array is attached to classesOne
     @IBAction func gradeEntered(_ sender: UITextField) {
         if sender.text == "9" {
             classesOne = gradeNineClasses
-//            classesTwo = gradeNineClasses
-//            classesThree = gradeNineClasses
-//            classesFour = gradeNineClasses
-//            classesFive = gradeNineClasses
-//            classesSix = gradeNineClasses
-//            classesSeven = gradeNineClasses
-//            classesEight = gradeNineClasses
         }
         else if sender.text == "10" {
             classesOne = gradeTenClasses
-//            classesTwo = gradeTenClasses
-//            classesThree = gradeTenClasses
-//            classesFour = gradeTenClasses
-//            classesFive = gradeTenClasses
-//            classesSix = gradeTenClasses
-//            classesSeven = gradeTenClasses
-//            classesEight = gradeTenClasses
         }
         else if sender.text == "11" {
             classesOne = gradeElevenClasses
-//            classesTwo = gradeElevenClasses
-//            classesThree = gradeElevenClasses
-//            classesFour = gradeElevenClasses
-//            classesFive = gradeElevenClasses
-//            classesSix = gradeElevenClasses
-//            classesSeven = gradeElevenClasses
-//            classesEight = gradeElevenClasses
         }
         else if sender.text == "12" {
             classesOne = gradeTwelveClasses
-//            classesTwo = gradeTwelveClasses
-//            classesThree = gradeTwelveClasses
-//            classesFour = gradeTwelveClasses
-//            classesFive = gradeTwelveClasses
-//            classesSix = gradeTwelveClasses
-//            classesSeven = gradeTwelveClasses
-//            classesEight = gradeTwelveClasses
         }
         else {
             classesOne = masterClasses
-//            classesTwo = masterClasses
-//            classesThree = masterClasses
-//            classesFour = masterClasses
-//            classesFive = masterClasses
-//            classesSix = masterClasses
-//            classesSeven = masterClasses
-//            classesEight = masterClasses
         }
     }
     
@@ -106,6 +62,7 @@ class ScheduleEditViewController: UIViewController {
         gradeLevel.keyboardType = .numberPad
         gradeLevel.textAlignment = .center
         
+        //Setting placeholder for each block text field
         //block one
         firstPickerView.delegate = self
         firstPickerView.dataSource = self
@@ -171,6 +128,7 @@ class ScheduleEditViewController: UIViewController {
         blockEightTextField.textAlignment = .center
     }
     
+    //Sending information back to ScheduleViewController using the prepare for segue function
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         let destinationVC = segue.destination as! ScheduleViewController
         if let blockOne = blockOneTextField.text {
@@ -199,66 +157,20 @@ class ScheduleEditViewController: UIViewController {
         }
     }
 }
-//
+
 extension ScheduleEditViewController: UIPickerViewDelegate, UIPickerViewDataSource {
 
+    //Making pickerViews for each text field and making sure that the selected row remains
     func numberOfComponents(in pickerView: UIPickerView) -> Int {
         return 1
     }
 
     func pickerView(_ pickerView: UIPickerView, numberOfRowsInComponent component: Int) -> Int {
-//        if pickerView.tag == 1 {
-//            return classesOne.count
-//        }
-//        else if pickerView.tag == 2 {
-//            return classesTwo.count
-//        }
-//        else if pickerView.tag == 3 {
-//            return classesThree.count
-//        }
-//        else if pickerView.tag == 4 {
-//            return classesFour.count
-//        }
-//        else if pickerView.tag == 5 {
-//            return classesFive.count
-//        }
-//        else if pickerView.tag == 6 {
-//            return classesSix.count
-//        }
-//        else if pickerView.tag == 7 {
-//            return classesSeven.count
-//        }
-//        else {
             return classesOne.count
-//        }
     }
 
     func pickerView(_ pickerView: UIPickerView, titleForRow row: Int, forComponent component: Int) -> String? {
-//        if pickerView.tag == 1 {
-//            return classesOne[row]
-//        }
-//        else if pickerView.tag == 2 {
-//            return classesTwo[row]
-//        }
-//        else if pickerView.tag == 3 {
-//            return classesThree[row]
-//        }
-//        else if pickerView.tag == 4 {
-//            return classesFour[row]
-//        }
-//        else if pickerView.tag == 5 {
-//            return classesFive[row]
-//        }
-//        else if pickerView.tag == 6 {
-//            return classesSix[row]
-//        }
-//        else if pickerView.tag == 7 {
-//            return classesSeven[row]
-//        }
-//        else {
             return classesOne[row]
-//        }
-        
     }
 
     func pickerView(_ pickerView: UIPickerView, didSelectRow row: Int, inComponent component : Int) {

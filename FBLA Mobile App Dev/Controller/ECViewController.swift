@@ -1,10 +1,3 @@
-//
-//  ECViewController.swift
-//  FBLA Mobile App Dev
-//
-//  Created by Amy Yang on 6/22/22.
-//
-
 import UIKit
 import WebKit
 
@@ -21,19 +14,5 @@ class ECViewController: UIViewController {
         let url = URL(string: "https://sites.google.com/mhrd.org/mhclubs/home")!
         let request = URLRequest(url: url)
         webView.load(request)
-
-        // Do any additional setup after loading the view.
     }
-    
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
-    }
-    */
-
 }

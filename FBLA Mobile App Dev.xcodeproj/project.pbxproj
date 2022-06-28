@@ -12,10 +12,15 @@
 		76535DFC286379160039B9D9 /* LunchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76535DFB286379160039B9D9 /* LunchViewController.swift */; };
 		76535DFE2863792A0039B9D9 /* ContactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76535DFD2863792A0039B9D9 /* ContactViewController.swift */; };
 		76535E00286379420039B9D9 /* CalendarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76535DFF286379420039B9D9 /* CalendarViewController.swift */; };
-		76535E02286379BA0039B9D9 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76535E01286379BA0039B9D9 /* ProfileViewController.swift */; };
-		76535E0728637ADA0039B9D9 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76535E0628637ADA0039B9D9 /* LoginViewController.swift */; };
-		76535E0928637B0B0039B9D9 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76535E0828637B0B0039B9D9 /* RegisterViewController.swift */; };
 		76535E0C2863D94B0039B9D9 /* ScheduleEditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76535E0B2863D94B0039B9D9 /* ScheduleEditViewController.swift */; };
+		76863D792867E1A800A7AE85 /* LunchEditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76863D782867E1A800A7AE85 /* LunchEditViewController.swift */; };
+		76863D7B2867E43500A7AE85 /* LunchSignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76863D7A2867E43500A7AE85 /* LunchSignInViewController.swift */; };
+		768F24D6286925110033FCF2 /* CalendarCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 768F24D5286925110033FCF2 /* CalendarCell.swift */; };
+		768F24D8286928EF0033FCF2 /* CalendarHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 768F24D7286928EF0033FCF2 /* CalendarHelper.swift */; };
+		768F24DB28695B320033FCF2 /* WeeklyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 768F24DA28695B320033FCF2 /* WeeklyViewController.swift */; };
+		768F24DF2869D9C50033FCF2 /* EventCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 768F24DE2869D9C50033FCF2 /* EventCell.swift */; };
+		768F24E12869DC410033FCF2 /* EventEditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 768F24E02869DC410033FCF2 /* EventEditViewController.swift */; };
+		768F24E42869DD650033FCF2 /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = 768F24E32869DD650033FCF2 /* Event.swift */; };
 		76D9D0F32862C67600EB6E26 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76D9D0F22862C67600EB6E26 /* AppDelegate.swift */; };
 		76D9D0F52862C67600EB6E26 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76D9D0F42862C67600EB6E26 /* SceneDelegate.swift */; };
 		76D9D0F72862C67600EB6E26 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76D9D0F62862C67600EB6E26 /* HomeViewController.swift */; };
@@ -30,10 +35,15 @@
 		76535DFB286379160039B9D9 /* LunchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LunchViewController.swift; sourceTree = "<group>"; };
 		76535DFD2863792A0039B9D9 /* ContactViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactViewController.swift; sourceTree = "<group>"; };
 		76535DFF286379420039B9D9 /* CalendarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarViewController.swift; sourceTree = "<group>"; };
-		76535E01286379BA0039B9D9 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
-		76535E0628637ADA0039B9D9 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
-		76535E0828637B0B0039B9D9 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
 		76535E0B2863D94B0039B9D9 /* ScheduleEditViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleEditViewController.swift; sourceTree = "<group>"; };
+		76863D782867E1A800A7AE85 /* LunchEditViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LunchEditViewController.swift; sourceTree = "<group>"; };
+		76863D7A2867E43500A7AE85 /* LunchSignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LunchSignInViewController.swift; sourceTree = "<group>"; };
+		768F24D5286925110033FCF2 /* CalendarCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarCell.swift; sourceTree = "<group>"; };
+		768F24D7286928EF0033FCF2 /* CalendarHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarHelper.swift; sourceTree = "<group>"; };
+		768F24DA28695B320033FCF2 /* WeeklyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeeklyViewController.swift; sourceTree = "<group>"; };
+		768F24DE2869D9C50033FCF2 /* EventCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventCell.swift; sourceTree = "<group>"; };
+		768F24E02869DC410033FCF2 /* EventEditViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventEditViewController.swift; sourceTree = "<group>"; };
+		768F24E32869DD650033FCF2 /* Event.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
 		76D9D0EF2862C67600EB6E26 /* FBLA Mobile App Dev.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "FBLA Mobile App Dev.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		76D9D0F22862C67600EB6E26 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		76D9D0F42862C67600EB6E26 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -58,42 +68,18 @@
 		76535DF6286372880039B9D9 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				76535E0528637AA70039B9D9 /* Other */,
-				76535E0328637A600039B9D9 /* Core Tabs */,
-			);
-			path = Controller;
-			sourceTree = "<group>";
-		};
-		76535E0328637A600039B9D9 /* Core Tabs */ = {
-			isa = PBXGroup;
-			children = (
 				76D9D0F62862C67600EB6E26 /* HomeViewController.swift */,
 				76535E0B2863D94B0039B9D9 /* ScheduleEditViewController.swift */,
 				76535DF7286377BB0039B9D9 /* ScheduleViewController.swift */,
 				76535DF92863789F0039B9D9 /* ECViewController.swift */,
 				76535DFB286379160039B9D9 /* LunchViewController.swift */,
+				76863D7A2867E43500A7AE85 /* LunchSignInViewController.swift */,
+				76863D782867E1A800A7AE85 /* LunchEditViewController.swift */,
 				76535DFD2863792A0039B9D9 /* ContactViewController.swift */,
 				76535DFF286379420039B9D9 /* CalendarViewController.swift */,
-				76535E01286379BA0039B9D9 /* ProfileViewController.swift */,
+				768F24E22869DD470033FCF2 /* Calendar Files */,
 			);
-			path = "Core Tabs";
-			sourceTree = "<group>";
-		};
-		76535E0428637A7F0039B9D9 /* Onboarding */ = {
-			isa = PBXGroup;
-			children = (
-				76535E0628637ADA0039B9D9 /* LoginViewController.swift */,
-				76535E0828637B0B0039B9D9 /* RegisterViewController.swift */,
-			);
-			path = Onboarding;
-			sourceTree = "<group>";
-		};
-		76535E0528637AA70039B9D9 /* Other */ = {
-			isa = PBXGroup;
-			children = (
-				76535E0428637A7F0039B9D9 /* Onboarding */,
-			);
-			path = Other;
+			path = Controller;
 			sourceTree = "<group>";
 		};
 		76535E0A28637B4B0039B9D9 /* Storyboard */ = {
@@ -103,6 +89,19 @@
 				76D9D0FD2862C67900EB6E26 /* LaunchScreen.storyboard */,
 			);
 			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		768F24E22869DD470033FCF2 /* Calendar Files */ = {
+			isa = PBXGroup;
+			children = (
+				768F24DA28695B320033FCF2 /* WeeklyViewController.swift */,
+				768F24D5286925110033FCF2 /* CalendarCell.swift */,
+				768F24D7286928EF0033FCF2 /* CalendarHelper.swift */,
+				768F24DE2869D9C50033FCF2 /* EventCell.swift */,
+				768F24E02869DC410033FCF2 /* EventEditViewController.swift */,
+				768F24E32869DD650033FCF2 /* Event.swift */,
+			);
+			path = "Calendar Files";
 			sourceTree = "<group>";
 		};
 		76D9D0E62862C67600EB6E26 = {
@@ -205,17 +204,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				76863D792867E1A800A7AE85 /* LunchEditViewController.swift in Sources */,
 				76535E00286379420039B9D9 /* CalendarViewController.swift in Sources */,
-				76535E0928637B0B0039B9D9 /* RegisterViewController.swift in Sources */,
 				76D9D0F72862C67600EB6E26 /* HomeViewController.swift in Sources */,
+				768F24E42869DD650033FCF2 /* Event.swift in Sources */,
+				768F24D6286925110033FCF2 /* CalendarCell.swift in Sources */,
 				76535DFE2863792A0039B9D9 /* ContactViewController.swift in Sources */,
+				76863D7B2867E43500A7AE85 /* LunchSignInViewController.swift in Sources */,
+				768F24DF2869D9C50033FCF2 /* EventCell.swift in Sources */,
 				76D9D0F32862C67600EB6E26 /* AppDelegate.swift in Sources */,
 				76D9D0F52862C67600EB6E26 /* SceneDelegate.swift in Sources */,
+				768F24D8286928EF0033FCF2 /* CalendarHelper.swift in Sources */,
 				76535DFC286379160039B9D9 /* LunchViewController.swift in Sources */,
-				76535E02286379BA0039B9D9 /* ProfileViewController.swift in Sources */,
 				76535DFA2863789F0039B9D9 /* ECViewController.swift in Sources */,
-				76535E0728637ADA0039B9D9 /* LoginViewController.swift in Sources */,
+				768F24E12869DC410033FCF2 /* EventEditViewController.swift in Sources */,
 				76535E0C2863D94B0039B9D9 /* ScheduleEditViewController.swift in Sources */,
+				768F24DB28695B320033FCF2 /* WeeklyViewController.swift in Sources */,
 				76535DF8286377BB0039B9D9 /* ScheduleViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -363,6 +367,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JCBGG6UGQ9;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "FBLA Mobile App Dev/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -390,6 +395,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JCBGG6UGQ9;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "FBLA Mobile App Dev/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;

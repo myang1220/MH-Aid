@@ -1,28 +1,23 @@
-//
-//  ViewController.swift
-//  FBLA Mobile App Dev
-//
-//  Created by Amy Yang on 6/21/22.
-//
-
 import UIKit
 import WebKit
 
 class HomeViewController: UIViewController {
     
+    //Creates WKWebView
     @IBOutlet weak var webView: WKWebView!
     
     var url: URL!
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
         
+        //Sets landing screen as Twitter
         url = URL(string: "https://twitter.com/mhactivities?lang=en")!
         let request = URLRequest(url: url)
         webView.load(request)
     }
     
+    //When segmented control is changed, the url of the webView switches depending on the tab
     @IBAction func didChangeSegment(_ sender: UISegmentedControl) {
         if sender.selectedSegmentIndex == 0 {
             url = URL(string: "https://twitter.com/mhactivities?lang=en")!

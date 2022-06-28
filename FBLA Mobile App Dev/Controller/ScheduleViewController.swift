@@ -1,14 +1,8 @@
-//
-//  ScheduleViewController.swift
-//  FBLA Mobile App Dev
-//
-//  Created by Amy Yang on 6/22/22.
-//
-
 import UIKit
 
 class ScheduleViewController: UIViewController {
    
+    //Create variables for each of the labels
     @IBOutlet weak var blockOne: UILabel!
     @IBOutlet weak var blockTwo: UILabel!
     @IBOutlet weak var blockThree: UILabel!
@@ -18,6 +12,7 @@ class ScheduleViewController: UIViewController {
     @IBOutlet weak var blockSeven: UILabel!
     @IBOutlet weak var blockEight: UILabel!
     
+    //Create variables for empty strings that later retain the information passed from the segue
     var blockOneClass: String = ""
     var blockTwoClass: String = ""
     var blockThreeClass: String = ""
@@ -27,6 +22,7 @@ class ScheduleViewController: UIViewController {
     var blockSevenClass: String = ""
     var blockEightClass: String = ""
     
+    //Sets the new information that will display on the labels
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(true)
         blockOne.text = "Block One: \(blockOneClass)"
@@ -39,6 +35,7 @@ class ScheduleViewController: UIViewController {
         blockEight.text = "Block Eight: \(blockEightClass)"
     }
     
+    //Creating an unwind segue function name
     @IBAction func unwindToDisplay(_ sender: UIStoryboardSegue) {
     }
     
