@@ -35,6 +35,9 @@ This is where you let them know that they can contribute and help you out. A gui
 
 ## Credits
 Special thanks to the following YouTube channels who were especially helpful to the production and development of this mobile application:
+
 CodeWithChris
+
 iOS Academy
+
 Code With Cal
