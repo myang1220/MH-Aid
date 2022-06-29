@@ -10,9 +10,9 @@ Below the tab bar controller lie a row of navigation controllers; each serve as 
 Embedded within each of these navigation controller lies at least one other view controller which pertains specifically to the item chosen on the tab bar. What exactly these view controllers display and how they function will be elaborated in further depth below.
 
 ## Home View Controller
-![image](https://user-images.githubusercontent.com/100817191/176461599-b8f4b93e-cf72-4371-ad2b-75c5c0809c1d.png)
-![image](https://user-images.githubusercontent.com/100817191/176461655-38a2a120-7c2c-4cba-a021-99706ade5a65.png)
-![image](https://user-images.githubusercontent.com/100817191/176461656-26c17c70-4fa6-489e-880b-3893791eef1b.png)
+![image](https://user-images.githubusercontent.com/100817191/176469428-73cf2ade-c6e9-4128-8fde-304ff24b4632.png)
+![image](https://user-images.githubusercontent.com/100817191/176469456-98545f25-0392-4cb8-abae-0898891e8faf.png)
+![image](https://user-images.githubusercontent.com/100817191/176469495-ddaad01d-f600-4344-91d1-ab0e38a7b617.png)
 
 The home view controller serves as the landing page for MH Aid. A segmented control lies on this view controller, and upon changing tabs, a different view is displayed. Coding-wise, if the tab tag is 1, Twitter is displayed; if the tab tag is 2, Instagram is displayed; if the tab tag is 3, Facebook is displayed. The goal is for users to be able to remain up-to-date on Morris Hills current events.
 
@@ -28,3 +28,11 @@ Once the user presses the edit button on the top left, a new page is loaded wher
 ![image](https://user-images.githubusercontent.com/100817191/176462081-b3345501-d74d-40e5-9d1e-80e00fa49f1b.png)
 
 After users select all of their classes, their inputs are transported onto the originial view. This data is saved until the next time the edit button is pressed.
+
+## Activities View Controller
+![image](https://user-images.githubusercontent.com/100817191/176471740-a6877465-3cc7-4c9b-8e17-be91fa702244.png)
+![image](https://user-images.githubusercontent.com/100817191/176472940-7d293ddd-95d1-452a-b8c4-31b8886aa6e7.png)
+![image](https://user-images.githubusercontent.com/100817191/176472967-74e3021b-b316-4c93-92d6-bf1238e0c1f0.png)
+
+
+The third page links directly to a Google Site detailing relevant information regarding Morris Hills' extracurriculars activities. On the side bar, users can choose which topic of activity they want to explore, as well as the specific club that they might be interested in. 
