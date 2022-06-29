@@ -1,4 +1,4 @@
-# FBLA-MH-Aid
+# MH Aid ReadMe
 
 ## Project Title
 MH Aid is a mobile application that aims to make students' lives easier. It primarily focuses on efficiency, functionality, and practicality. At the moment, information relating to Morris Hills High School can be found, but often requires a lengthy search. As a result, MH Aid aims to compact valuable resources/abilities such as emailing teachers, viewing schedules, and exploring extracurricular activities into one platform.
