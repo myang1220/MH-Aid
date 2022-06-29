@@ -36,3 +36,27 @@ After users select all of their classes, their inputs are transported onto the o
 
 
 The third page links directly to a Google Site detailing relevant information regarding Morris Hills' extracurriculars activities. On the side bar, users can choose which topic of activity they want to explore, as well as the specific club that they might be interested in. 
+
+## Lunch View Controller
+![image](https://user-images.githubusercontent.com/100817191/176478309-b0105276-725c-4eaf-b80d-6a9fd9cce01c.png)
+
+Upon pressing the lunch item, the user is greeeted with the above screen. The daily dishes remain constant and are always visible, as they are never changed from day-to-day.
+
+![image](https://user-images.githubusercontent.com/100817191/176478329-279762ab-818d-4f5d-97bd-a679e33a23ec.png)
+
+If the user is an administrator, they have the option to choose "Sign-in" in the top right corner. A new screen (shown above) is displayed.
+
+![image](https://user-images.githubusercontent.com/100817191/176478412-7849b95b-3c15-42a6-a88d-9bcd815fab86.png)
+
+Upon entering the correct authentication pin, the administrator is led to a new page where they can add the day's new menus. The text fields code for: today's two specials, today's vegetables, and whether or not fries are served for the day.
+
+![image](https://user-images.githubusercontent.com/100817191/176478461-60676872-f887-4bce-8f6e-8a83a39b3708.png)
+
+
+
+![image](https://user-images.githubusercontent.com/100817191/176478495-6f2caa08-eb9b-4b7a-8d03-0c97bd6df095.png)
+
+
+
+
+
